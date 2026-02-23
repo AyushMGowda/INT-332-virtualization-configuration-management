@@ -1,6 +1,6 @@
 # 🐳 Docker Basics – INT 332
 
-## 1️⃣ What is Docker?
+### 1️⃣ What is Docker?
 
 Docker is a containerization platform that allows applications to run in isolated environments called containers.
 
@@ -14,7 +14,7 @@ This ensures the app runs the same on every machine.
 
 ---
 
-## 2️⃣ What is Containerization?
+### 2️⃣ What is Containerization?
 
 Containerization is a lightweight alternative to virtualization.
 
@@ -22,7 +22,7 @@ Instead of running a full OS for every application, containers share the host OS
 
 ---
 
-## 3️⃣ Virtual Machines vs Containers
+### 3️⃣ Virtual Machines vs Containers
 
 | Feature | Virtual Machine | Container |
 |----------|----------------|-----------|
@@ -33,7 +33,7 @@ Instead of running a full OS for every application, containers share the host OS
 
 ---
 
-## 4️⃣ Docker Architecture
+### 4️⃣ Docker Architecture
 
 Docker uses a Client-Server architecture:
 
@@ -45,7 +45,7 @@ Docker uses a Client-Server architecture:
 
 ---
 
-## 5️⃣ Docker Image
+### 5️⃣ Docker Image
 
 An image is a read-only template used to create containers.
 Example
@@ -55,7 +55,7 @@ docker pull nginx
 
 ---
 
-## 6️⃣ Docker Container
+### 6️⃣ Docker Container
 
 A container is a running instance of an image.
 Example:
@@ -65,7 +65,7 @@ docker run nginx
 
 ---
 
-## 7️⃣ Basic Workflow
+### 7️⃣ Basic Workflow
 
 1. Pull image
 2. Run container
@@ -75,9 +75,10 @@ docker run nginx
 
 ---
 
-## 8️⃣ Why Docker is Important in DevOps
+### 8️⃣ Why Docker is Important in DevOps
 
 - Consistent environments
 - Faster deployments
 - Microservices architecture
 - CI/CD integration
+
