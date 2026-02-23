@@ -22,4 +22,5 @@ Lastly check it:
 ```bash
 docker ps -a
 ```
-![Container Output](images/Screenshot task-1.png)
+![Container Output](screenshots_and_images/Screenshot task-1.png)
+
