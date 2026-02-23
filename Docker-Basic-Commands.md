@@ -1,4 +1,4 @@
-### 🐳 Docker Basic Commands
+# 🐳 Docker Basic Commands
 
 
 ## 🔍 Check Installation
@@ -24,7 +24,7 @@ docker rmi <image_id>
 
 ## 🚀 Working with Containers
 
-# Run Container
+#### Run Container
 
 ```bash
 docker run nginx
@@ -35,7 +35,7 @@ docker run -d nginx
 -d → detached mode (background)
 -p → port
 
-# Run with Port Mapping
+#### Run with Port Mapping
 ```bash
 docker run -d -p 8080:80 nginx
 ```
@@ -43,43 +43,44 @@ Host:Container
 Access via → http://localhost:8080
 
 
-# List Running Containers
+#### List Running Containers
 ```bash
 docker ps
 ```
-# List All Containers
+#### List All Containers
 ```bash
 docker ps -a
 ```
-# Stop Container
+#### Stop Container
 ```bash
 docker stop <container_id>
 ```
-# Start Container
+#### Start Container
 ```bash
 docker start <container_id>
 ```
-# Restart Container
+#### Restart Container
 ```bash
 docker restart <container_id>
 ```
-# Remove Container
+#### Remove Container
 ```bash
 docker rm <container_id>
 ```
 
 
 ## 🧠 Inspect & Debug
-# Execute Command Inside Running Container
+
+#### Execute Command Inside Running Container
 ```bash
 docker exec -it <container_id> /bin/bash
 ```
 
-# View Logs
+#### View Logs
 ```bash
 docker logs <container_id>
 ```
-# Inspect Container Details
+#### Inspect Container Details
 ```bash
 docker inspect <container_id>
 ```
@@ -88,19 +89,19 @@ This shows networking, IP, volumes, everything. Don’t ignore this command.
 
 ## 🧹 Cleanup Commands
 
-# Remove All Stopped Containers
+#### Remove All Stopped Containers
 ```bash
 docker container prune
 ```
-# Remove Unused Images
+### Remove Unused Images
 ```bash
 docker image prune
 ```
-# Remove Everything Unused
+#### Remove Everything Unused
 ```bash
 docker system prune -a
 ```
-# Rename Container
+#### Rename Container
 ```bash
 docker rename <oldname> <newname>
 Show Resource Usage
