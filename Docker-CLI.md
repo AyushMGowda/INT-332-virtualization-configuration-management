@@ -1,3 +1,5 @@
+# Docker CLI
+
 ### Downloads the Ubuntu image from Docker Hub
 ```bash
 docker pull ubuntu
