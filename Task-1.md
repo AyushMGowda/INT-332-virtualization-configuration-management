@@ -1,4 +1,4 @@
-# TASK 1: Ubuntu Container
+# TASK 2: Ubuntu Container
 
 * Run Ubuntu container
 * Pass -e COLLEGE=CSE
@@ -23,6 +23,7 @@ docker run -it -e COLLEGE=CSE ubuntu bash
 docker ps -a
 ```
 ![Container Output](screenshots_and_images/Screenshot%20task-1.png)
+
 
 
 
