@@ -4,3 +4,5 @@ Coursework and lab implementations for INT-332: Virtualization and Configuration
 ## TASK 1: [Docker CLI](Docker-CLI.md)
 
 ## TASK 2: [Ubuntu Container](Task-1.md)
+
+## Tas 3: [Nginx Container Lifecycle](nginx-container.md)
