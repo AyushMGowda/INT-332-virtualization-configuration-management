@@ -52,7 +52,7 @@ Working with files inside containers and transferring files between host and con
 * `docker cp`
 * File creation inside container
 
-📄 [View Task](container-file-operations.md)
+📄 [View Task](Interaction-&-File-Operations.md)
 
 ---
 
@@ -65,7 +65,7 @@ Understanding persistent storage using Docker volumes.
 * Inspect volumes
 * Remove volumes
 
-📄 [View Task](Docker-Volumes.md)
+📄 [View Task](Volume-Management.md)
 
 ---
 
@@ -91,7 +91,7 @@ Building a custom Docker image using a Dockerfile.
 * Building custom image
 * Running container from custom image
 
-📄 [View Task](custom-nginx-dockerfile.md)
+📄 [View Task](Custom-Nginx-Image.md)
 
 ---
 
