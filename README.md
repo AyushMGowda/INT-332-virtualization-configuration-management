@@ -1,14 +1,121 @@
-# INT-332-virtualization-configuration-management
-Coursework and lab implementations for INT-332: Virtualization and Configuration Management. Includes hands-on setups, automation scripts, and infrastructure experiments using tools like VirtualBox and Docker
+# INT-332: Virtualization & Configuration Management
 
-## TASK 1: [Docker CLI](Docker-CLI.md)
+Coursework and lab implementations for **INT-332: Virtualization and Configuration Management**.
+This repository contains hands-on Docker labs covering container management, image building, storage, networking, and multi-container deployments.
 
-## TASK 2: [Ubuntu Container](Task-1.md)
+The experiments demonstrate practical usage of Docker for containerized application deployment and infrastructure management.
 
-## Task 3: [Nginx Container Lifecycle](nginx-container.md)
+---
 
-## Task : [Docker Volume](Docker-Volumes.md)
+## Task 1: Docker CLI Basics
 
-## Task : [Multi Container](Multi-Container.md)
+Introduction to Docker commands and container operations.
 
+* Pulling images
+* Running containers
+* Viewing container and image lists
 
+📄 [View Task](Docker-CLI.md)
+
+---
+
+## Task 2: Ubuntu Container Setup
+
+Running and interacting with an Ubuntu container.
+
+* Interactive containers
+* Container shell access
+* Basic Linux commands inside containers
+
+📄 [View Task](Task-1.md)
+
+---
+
+## Task 3: Nginx Container Lifecycle
+
+Understanding container lifecycle operations using an Nginx container.
+
+* Create container
+* Start / Stop / Restart container
+* Remove container
+
+📄 [View Task](nginx-container.md)
+
+---
+
+## Task 4: Container File Management
+
+Working with files inside containers and transferring files between host and container.
+
+* `docker exec`
+* `docker attach`
+* `docker cp`
+* File creation inside container
+
+📄 [View Task](container-file-operations.md)
+
+---
+
+## Task 5: Docker Volumes
+
+Understanding persistent storage using Docker volumes.
+
+* Create volumes
+* Mount volumes to containers
+* Inspect volumes
+* Remove volumes
+
+📄 [View Task](Docker-Volumes.md)
+
+---
+
+## Task 6: Docker Image Management
+
+Working with Docker images.
+
+* Pulling images from Docker Hub
+* Listing images
+* Running images
+* Cleaning unused images
+
+📄 [View Task](docker-images.md)
+
+---
+
+## Task 7: Custom Nginx Image using Dockerfile
+
+Building a custom Docker image using a Dockerfile.
+
+* Creating Dockerfile
+* Copying configuration files
+* Building custom image
+* Running container from custom image
+
+📄 [View Task](custom-nginx-dockerfile.md)
+
+---
+
+## Task 8: Docker Networking
+
+Creating custom Docker networks and enabling container communication.
+
+* Creating bridge networks
+* Connecting containers to network
+* Container DNS communication
+* Network inspection
+
+📄 [View Task](docker-networking.md)
+
+---
+
+## Task 9: Multi-Container Setup
+
+Running and managing multiple containers together.
+
+* Container linking
+* Inter-container communication
+* Multi-service deployment
+
+📄 [View Task](Multi-Container.md)
+
+---
