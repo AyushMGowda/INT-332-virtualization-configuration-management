@@ -78,7 +78,7 @@ Working with Docker images.
 * Running images
 * Cleaning unused images
 
-📄 [View Task](docker-images.md)
+📄 [View Task](Docker-Image-Management.md)
 
 ---
 
@@ -104,7 +104,7 @@ Creating custom Docker networks and enabling container communication.
 * Container DNS communication
 * Network inspection
 
-📄 [View Task](docker-networking.md)
+📄 [View Task](Docker-Networking.md)
 
 ---
 
