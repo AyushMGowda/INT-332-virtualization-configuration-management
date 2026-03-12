@@ -12,8 +12,9 @@ docker pull nginx
 ```bash
 docker run -d -p 8080:80 --name mynginx nginx
 ```
-![Container Output](screenshots_and_images/localhost.png)
 #### for checking visit: http://localhost:8080
+![Container Output](screenshots_and_images/localhost.png)
+
 
 ## List Running Containers
 ```bash
