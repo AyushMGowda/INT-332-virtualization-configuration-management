@@ -32,6 +32,7 @@ docker exec -it mycontainer bash
 echo "Docker Volume Test" > /app/data/test.txt
 exit
 ```
+![Container Output](screenshots_and_images/volume.png)
 
 ### Run a container with the volume
 ```bash
@@ -49,6 +50,7 @@ docker exec -it mycontainer ls /app/data
 ```bash
 docker exec -it mycontainer cat /app/data/test.txt
 ```
+![Container Output](screenshots_and_images/volume1.png)
 
 ### Inspect container
 ```bash
