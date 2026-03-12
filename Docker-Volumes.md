@@ -22,6 +22,17 @@ docker volume ls
 docker volume inspect mydata
 ```
 
+### Create a file inside the volume
+```bash
+docker exec -it mycontainer bash
+```
+
+#### Inside the container:
+```bash
+echo "Docker Volume Test" > /app/data/test.txt
+exit
+```
+
 ### Run a container with the volume
 ```bash
 docker run -dit --name mycontainer -v mydata:/app/data ubuntu
@@ -33,6 +44,10 @@ mydata → /app/data inside container
 ### Check volume content inside container
 ```bash
 docker exec -it mycontainer ls /app/data
+```
+#### Read the file
+```bash
+docker exec -it mycontainer cat /app/data/test.txt
 ```
 
 ### Inspect container
