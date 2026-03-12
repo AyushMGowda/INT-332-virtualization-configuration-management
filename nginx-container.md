@@ -12,13 +12,14 @@ docker pull nginx
 ```bash
 docker run -d -p 8080:80 --name mynginx nginx
 ```
+![Container Output](screenshots_and_images/localhost.png)
 #### for checking visit: http://localhost:8080
 
 ## List Running Containers
 ```bash
 docker ps
 ```
-
+![Container Output](screenshots_and_images/nginx1.png)
 ## Stop the Container
 ```bash
 docker stop mynginx
@@ -28,7 +29,7 @@ docker stop mynginx
 ```bash
 docker start mynginx
 ```
-
+![Container Output](screenshots_and_images/nginx3.png)
 ## Remove the Container
 ```bash
 docker rm -f mynginx
