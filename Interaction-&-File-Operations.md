@@ -1,29 +1,43 @@
 # Interaction & File Operations
+Docker provides commands that allow users to execute commands inside a running container.
+This makes it possible to manage files, create directories, and inspect container contents without stopping the container.
 
+### Start a container first
 ```bash
-docker exec -it <container> ls /
+docker run -dit --name file_container ubuntu
 ```
+List running containers
 ```bash
-docker exec -it <container> /bin/bash
+docker ps
 ```
+![Container Output](screenshots_and_images/Interaction-&-File-Operations1.png)
+### List root directory inside the container
+```bash
+docker exec -it file_container ls /
+```
+### Open bash shell inside the container
+```bash
+docker exec -it file_container /bin/bash
+```
+### Create a directory inside the container
 ```bash
 mkdir /data
 ```
+### Create a file inside the directory
 ```bash
 echo "Hello Docker" > /data/test.txt
 ```
+Exit the container shell
 ```bash
-docker attach <container>
+exit
 ```
+![Container Output](screenshots_and_images/Interaction-&-File-Operations2.png)
+### Verify the file inside the container
 ```bash
-docker cp <container>:/data/test.txt C:\Users\HP\Desktop\
+docker exec -it file_container ls /data
 ```
+### Display file contents
 ```bash
-docker cp C:\Users\HP\Desktop\test.txt <container>:/data/sample.txt
+docker exec -it file_container cat /data/test.txt
 ```
-```bash
-docker exec -it <container> ls /data
-```
-```bash
-docker exec -it <container> cat /data/sample.txt
-```
+![Container Output](screenshots_and_images/Interaction-&-File-Operations3.png)
