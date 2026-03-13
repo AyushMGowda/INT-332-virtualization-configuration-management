@@ -53,3 +53,5 @@ docker run -d -p 8080:80 --name nginx-container custom-nginx:v1
 ```
 Open browser:
 http://localhost:8080
+
+![Container Output](screenshots_and_images/5task.png)
