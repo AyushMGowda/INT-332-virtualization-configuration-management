@@ -1,4 +1,7 @@
 # Custom Nginx Image
+A Custom Nginx Image is a Docker image created by modifying the default Nginx image using a Dockerfile. It allows developers to customize the web server by adding configuration files, HTML pages, or other resources required for a specific application.
+
+Instead of manually configuring a container every time it runs, a custom image packages all required settings and files into one reusable image. This makes deployment faster, consistent, and easier to manage.
 
 ## Create a Folder
 ```bash
